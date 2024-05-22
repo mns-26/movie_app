@@ -3,8 +3,6 @@ import 'package:movie_app/screens/movie/categories_movie_screen.dart';
 import 'package:movie_app/screens/movie/home_movie_screen.dart';
 import 'package:movie_app/screens/movie/trending_movie_screen.dart';
 
-import '../screens/movie/home_screen.dart';
-
 class HomeLayout extends StatefulWidget {
   const HomeLayout({super.key});
 
@@ -13,7 +11,7 @@ class HomeLayout extends StatefulWidget {
 }
 
 class _HomeLayoutState extends State<HomeLayout> {
-  int _selectedIndex = 0;
+  int _selectedIndex = 1;
 
   List<String> titles = ['Home', 'Trending', 'Categories'];
   List<Widget> screens = [
